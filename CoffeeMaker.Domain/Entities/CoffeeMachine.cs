@@ -17,7 +17,6 @@ namespace CoffeeMaker.Domain
         public void AddTray(string ingredientName, int capacity = 50, int quantity = 0)
         {
             Ingredient ingredient = Ingredients.FirstOrDefault(i => i.Name == ingredientName);
-
             if (ingredient == null) throw new InvalidOperationException("No such ingredient.");
 
             Trays.Add(new Tray(ingredient, quantity, capacity));
