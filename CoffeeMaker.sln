@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Cui", "CoffeeMaker.Cui\CoffeeMaker.Cui.csproj", "{3F300102-68A5-4D40-A2B8-5229CE9AAC06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Domain", "CoffeeMaker.Domain\CoffeeMaker.Domain.csproj", "{A45C8B3B-B418-486F-B04B-C559F3D3D608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Application", "CoffeeMaker.Application\CoffeeMaker.Application.csproj", "{FD6E16FA-E7F0-4AD7-B1DE-44A714A63105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Infrastructure", "CoffeeMaker.Infrastructure\CoffeeMaker.Infrastructure.csproj", "{B89051B0-C8D4-4A55-89DD-DDED12E1C9A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F300102-68A5-4D40-A2B8-5229CE9AAC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F300102-68A5-4D40-A2B8-5229CE9AAC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F300102-68A5-4D40-A2B8-5229CE9AAC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F300102-68A5-4D40-A2B8-5229CE9AAC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45C8B3B-B418-486F-B04B-C559F3D3D608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45C8B3B-B418-486F-B04B-C559F3D3D608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45C8B3B-B418-486F-B04B-C559F3D3D608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45C8B3B-B418-486F-B04B-C559F3D3D608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6E16FA-E7F0-4AD7-B1DE-44A714A63105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6E16FA-E7F0-4AD7-B1DE-44A714A63105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6E16FA-E7F0-4AD7-B1DE-44A714A63105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6E16FA-E7F0-4AD7-B1DE-44A714A63105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89051B0-C8D4-4A55-89DD-DDED12E1C9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89051B0-C8D4-4A55-89DD-DDED12E1C9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89051B0-C8D4-4A55-89DD-DDED12E1C9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89051B0-C8D4-4A55-89DD-DDED12E1C9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/emanmiraacc
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CoffeeMaker.Application\\CoffeeMaker.Application.csproj
+		SccProjectName1 = CoffeeMaker.Application
+		SccLocalPath1 = CoffeeMaker.Application
+		SccProjectUniqueName2 = CoffeeMaker.Cui\\CoffeeMaker.Cui.csproj
+		SccProjectName2 = CoffeeMaker.Cui
+		SccLocalPath2 = CoffeeMaker.Cui
+		SccProjectUniqueName3 = CoffeeMaker.Domain\\CoffeeMaker.Domain.csproj
+		SccProjectName3 = CoffeeMaker.Domain
+		SccLocalPath3 = CoffeeMaker.Domain
+		SccProjectUniqueName4 = CoffeeMaker.Infrastructure\\CoffeeMaker.Infrastructure.csproj
+		SccProjectName4 = CoffeeMaker.Infrastructure
+		SccLocalPath4 = CoffeeMaker.Infrastructure
+	EndGlobalSection
+EndGlobal

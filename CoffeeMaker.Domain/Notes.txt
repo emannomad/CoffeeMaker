@@ -1,0 +1,14 @@
+﻿
+How do you deal with providing keys for value objects when soft delete is a requirement?
+An object can be deleted, but then the same name could be added back.
+
+Had to introduce IngredientName to RecipeItem and Tray to comply with Entity Framework.
+
+Had to introduce Id to Trays to comply with Entity Framework. How to implement local identity?
+
+Beverage has a key of name, which doesn't consider that different coffee machine could have a beverage with the same name. How to implement local identity?
+
+
+New features:
+- Track every order with date.
+- Specification pattern.
