@@ -1,8 +1,6 @@
 CoffeeMachine with Id of 1 needs to be manually added to database for the program to work.
 
-#Requirements
-
-The program is built similar to the below requirements that I found on reddit. Apparently this was asked by Microsoft in a job interview.
+The program is built similar to the below OOP problem that I found on reddit. Apparently this was asked by Microsoft in a job interview.
 
 Problem;
 Object Oriented Design-
