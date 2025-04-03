@@ -25,14 +25,19 @@ namespace CoffeeMaker.Application.Services
         {
             CoffeeMachine coffeeMachine = _unitOfWork.CoffeeMachineRepository.GetFullCoffeeMachineById(coffeeMachineId);
 
+            var ingredientDictionary = coffeeMachine.Ingredients.ToDictionary(i => i.Name);
+
             List<RecipeIngredient> recipeItems = new List<RecipeIngredient>();
             foreach (RecipeIngredientDto item in ingredients)
             {
-                recipeItems.Add(new RecipeIngredient
+                if (ingredientDictionary.TryGetValue(item.IngredientName, out Ingredient ingredient))
                 {
-                    Ingredient = coffeeMachine.Ingredients.FirstOrDefault(i => i.Name == item.IngredientName),
-                    Quantity = item.Quantity
-                });
+                    recipeItems.Add(new RecipeIngredient
+                    {
+                        Ingredient = ingredient,
+                        Quantity = item.Quantity
+                    });
+                }
             }
 
             return beverage.CustomizeBeverage(recipeItems);
